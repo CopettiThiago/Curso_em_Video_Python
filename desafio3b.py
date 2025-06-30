@@ -1,0 +1,11 @@
+var = input('Digite algo: ')
+
+print('O tipo primitivo desse valor é {}'.format(type(var)))
+print('É alfanumérico? {}'.format(var.isalnum()))
+print('É alfabético? {}'.format(var.isalpha()))
+print('É numérico? {}'.format(var.isnumeric()))
+print('É decimal? {}'.format(var.isdecimal()))
+print('É um dígito? {}'.format(var.isdigit()))
+print('É um identificador? {}'.format(var.isidentifier()))
+print('Está em minúsculas? {}'.format(var.islower()))
+print('Está em maiúsculas? {}'.format(var.isupper()))
