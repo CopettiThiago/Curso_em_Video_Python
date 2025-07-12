@@ -5,7 +5,8 @@ print(frase[::2]) # salto 2 sem saber o inicio e o fim
 
 # para um texto com várias linhas pode-se usar o print com ''' no inicio e final
 
-print(frase.count('o')) # conta quantos o minusculos tem na frase
+print(len(frase.strip())) # len conta o numero de caracteres, strip remove os espaços no inicio e no final
+print(frase.count('o')) # conta quantos 'o' minusculos tem na frase
 print(frase.upper().count('O')) # upper coloca tudo em maiusculo e conta o total de 'O'
 print(len(frase.strip())) # strip remove os espaços e len conta os caracteres
 print(frase.replace('Python', 'Android')) # para substituir na frase, frase deve = a string
