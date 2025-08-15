@@ -1,5 +1,5 @@
 # tuplas são variáveis compostas
-#As tuplas são IMUNTÁVEIS
+#As tuplas são IMUTÁVEIS
 # as variáveis são acessadas por índices
 #lanche = ('hamburguer', 'suco', 'pizza', 'pudim')
 
@@ -31,6 +31,8 @@
 #
 # for pos, comida in enumerate(lanche):
 #     print(f'Eu vou comer {comida} na posição {pos}')
+
+# print(sorted(lanche)) mostra a tupla em lista, mas não a altera
 
 # a = (2, 5, 4)
 # b = (5, 8, 1, 2)
